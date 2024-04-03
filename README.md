@@ -2,7 +2,7 @@
  <h2 align="center">macOS Ventura on Lenovo Ideapad 330-15ARR - Ryzen 2500U</h2>
  <p align="center">Lenovo Ideapad 330-15ARR OpenCore EFI and config.</p>
 </p>
-<p align="center"><img src="https://img.shields.io/badge/Bios-7VCN49WW-blue?logo=lenovo&amp;logoColor=%23fff" alt="" />&nbsp;<img src="https://img.shields.io/badge/OpenCore-0.9.9-black" alt="" />&nbsp;<img src="https://img.shields.io/badge/MacOS-Ventura%2013.6.3-green?logo=apple&amp;logoColor=%23fff" alt="" /></p>
+<p align="center"><img src="https://img.shields.io/badge/Bios-7VCN49WW-blue?logo=lenovo&amp;logoColor=%23fff" alt="" />&nbsp;<img src="https://img.shields.io/badge/OpenCore-0.9.9-black" alt="" />&nbsp;<img src="https://img.shields.io/badge/MacOS-Ventura%2013.6.6-green?logo=apple&amp;logoColor=%23fff" alt="" /></p>
 
 ## Table of Contents
 
@@ -27,7 +27,7 @@
 | RAM  | 1x 4GB + 1x 16GB  DDR4 2400 MHz  |
 | WiFi & BT | Realtek RTL8821CE  |
 | Ethernet  | Realtek RTL8111  |
-| Audio  | Realtek ALC326  |
+| Audio  | Realtek ALC236  |
 | OpenCore Version  | 0.9.9  |
 | SMBIOS  | MacBookPro16,3   |
 
@@ -36,8 +36,8 @@
 | --- | --- | --- |
 | CPU | ✅ | [AMD Vanilla Kernel Patches](https://github.com/AMD-OSX/AMD_Vanilla?tab=readme-ov-file#read-me-first) |
 | iGPU | ✅ | NootedRed.kext|
-| Brightness Control | ✅ | Don't update to latest NootedRed ([related issue](https://github.com/ChefKissInc/NootedRed/issues/236))|
-| HDMI A/V out | ✅ |   |
+| Brightness Control | ✅ | Brightness control isn't working properly ([related issue](https://github.com/ChefKissInc/NootedRed/issues/236))|
+| HDMI A/V out | ✅ ⚠️| HDMI Audio is not working |
 | USB | ✅ | All ports working with GUX-RyzenXHCIFix.kext + USBMap|
 | Keyboard | ✅ | VoodooPS2.kext |
 | Audio & Internal Mic| ✅ | AppleALC.kext working with [layout-id](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html) 13|
@@ -78,7 +78,7 @@ This boot argument is used due to the absence of [**Above 4G Decoding**](https:/
 | [USBToolBox.kext](https://github.com/corpnewt/USBMap) | A USB Mapping kext and tool,  UTBMap.kext must be generated |
 | [UTBMap.kext](https://github.com/USBToolBox/tool) | Generated with USBToolBox |
 | [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC) | Advanced Apple SMC emulator in the kernel |
-| [VoodooI2C.kext & VoodooU2CHID.kext](https://nootinc.github.io/Extras/Kexts/VoodooI2C.zip) | Fixes trackpad |
+| [VoodooI2C.kext & VoodooI2CHID.kext](https://chefkissinc.github.io/Extras/Kexts/VoodooI2C.zip) | Fixes trackpad |
 | [VoodooPS2Controller.kext](https://github.com/acidanthera/VoodooPS2) | Fixes keyboard |
 
 ## SSDTs Used
@@ -103,6 +103,7 @@ Generated with SSDTTime in Windows 10. More information [here](https://chefkissi
 | [corpnewt/SSDTTime](https://github.com/corpnewt/SSDTTime) | Used for creating SSDTs |
 | [corpnewt/GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) | Used to generate SMBIOS |
 | [corpnewt/MountEFI](https://github.com/corpnewt/MountEFI) | Used to mount the EFI partition |
+| [corpnewt/CPU-Name](https://github.com/corpnewt/CPU-Name) | Used to change the displayed CPU name |
 | [DavidS95/Smokeless_UMAF](https://github.com/DavidS95/Smokeless_UMAF) | Used to increase the iGPU VRAM to 2GB|
 | [NyaomiDEV/AMDFriend](https://github.com/NyaomiDEV/AMDFriend) | Patches libraries to work on AMD |
 | [USBToolBox/tool](https://github.com/USBToolBox/tool) | Used to generate USBToolBox.kext |
