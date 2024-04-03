@@ -73,7 +73,7 @@ This boot argument is used due to the absence of [**Above 4G Decoding**](https:/
 | [NootedRed.kext](https://github.com/ChefKissInc/NootedRed) | A Lilu plugin for AMD Vega iGPU support |
 | [RealtekRTL8111.kext](https://github.com/Mieze/RTL8111_driver_for_OS_X) | Open source driver for the Realtek RTL8111/8168 Ethernet family |
 | [RestrictEvents.kext](https://github.com/acidanthera/RestrictEvents) | Blocking unwanted processes causing compatibility issues on different hardware and unlocking the support for certain features restricted to other hardware |
-| [Ryzen-CtlnaAHCIPort.kext]() | A kext to properly detect the internal SATA drive |
+| [Ryzen-CtlnaAHCIPort.kext](https://cdn.discordapp.com/attachments/263757191608139779/1133121323929964574/Ryzen-CtlnaAHCIPort.zip?ex=661d8278&is=660b0d78&hm=bd940709150937d178c612b67225be8a87d69891bcadda4b1d180470901e7dcb&) | A kext to properly detect the internal SATA drive |
 | [SMCBatteryManager.kext](https://github.com/acidanthera/VirtualSMC) | Enables battery readings |
 | [USBToolBox.kext](https://github.com/corpnewt/USBMap) | A USB Mapping kext and tool,  UTBMap.kext must be generated |
 | [UTBMap.kext](https://github.com/USBToolBox/tool) | Generated with USBToolBox |
