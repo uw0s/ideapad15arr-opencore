@@ -36,8 +36,8 @@
 | --- | --- | --- |
 | CPU | ✅ | [AMD Vanilla Kernel Patches](https://github.com/AMD-OSX/AMD_Vanilla?tab=readme-ov-file#read-me-first) |
 | iGPU | ✅ | NootedRed.kext|
-| Brightness Control | ✅ | Brightness control isn't working properly ([related issue](https://github.com/ChefKissInc/NootedRed/issues/236))|
-| HDMI A/V out | ✅ ⚠️| HDMI Audio is not working |
+| Brightness Control | ⚠️ | Brightness control isn't working properly ([related issue](https://github.com/ChefKissInc/NootedRed/issues/236))|
+| HDMI A/V out | ✅ ⚠️| HDMI Audio is not working ([related issue](https://github.com/ChefKissInc/NootedRed/issues/225)) |
 | USB | ✅ | All ports working with GUX-RyzenXHCIFix.kext + USBMap|
 | Keyboard | ✅ | VoodooPS2.kext |
 | Audio & Internal Mic| ✅ | AppleALC.kext working with [layout-id](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html) 13|
@@ -45,7 +45,7 @@
 | Ethernet | ✅ | RealtekRTL8111.kext |
 | WiFi & BT|❌| Unsupported card|
 | Battery | ✅ | ECEnabler.kext + SMCBatteryManager.kext|
-| AppleTV+ DRM | ❓| |
+| AppleTV+ DRM | ❌| [Related issue](https://github.com/ChefKissInc/NootedRed/issues/28)|
 | iServices | ❓ | |
 | Shutdown/Reboot | ✅ |   |
 | Sleep/Wake | ✅ | |
