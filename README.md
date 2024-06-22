@@ -2,7 +2,7 @@
  <h2 align="center">macOS Ventura on Lenovo Ideapad 330-15ARR - Ryzen 2500U</h2>
  <p align="center">Lenovo Ideapad 330-15ARR OpenCore EFI and config.</p>
 </p>
-<p align="center"><img src="https://img.shields.io/badge/Bios-7VCN49WW-blue?logo=lenovo&amp;logoColor=%23fff" alt="" />&nbsp;<img src="https://img.shields.io/badge/OpenCore-0.9.9-black" alt="" />&nbsp;<img src="https://img.shields.io/badge/MacOS-Ventura%2013.6.6-green?logo=apple&amp;logoColor=%23fff" alt="" /></p>
+<p align="center"><img src="https://img.shields.io/badge/Bios-7VCN49WW-blue?logo=lenovo&amp;logoColor=%23fff" alt="" />&nbsp;<img src="https://img.shields.io/badge/OpenCore-0.9.9-black" alt="" />&nbsp;<img src="https://img.shields.io/badge/MacOS-Ventura%2013.6.7-green?logo=apple&amp;logoColor=%23fff" alt="" /></p>
 
 ## Table of Contents
 
@@ -36,7 +36,7 @@
 | --- | --- | --- |
 | CPU | ✅ | [AMD Vanilla Kernel Patches](https://github.com/AMD-OSX/AMD_Vanilla?tab=readme-ov-file#read-me-first) |
 | iGPU | ✅ | NootedRed.kext|
-| Brightness Control | ⚠️ | Brightness control isn't working properly ([related issue](https://github.com/ChefKissInc/NootedRed/issues/236))|
+| Brightness Control | ✅ |  |
 | HDMI A/V out | ✅ ⚠️| HDMI Audio is not working ([related issue](https://github.com/ChefKissInc/NootedRed/issues/225)) |
 | USB | ✅ | All ports working with GUX-RyzenXHCIFix.kext + USBMap|
 | Keyboard | ✅ | VoodooPS2.kext |
@@ -67,6 +67,7 @@ This boot argument is used due to the absence of [**Above 4G Decoding**](https:/
 | --- | --- |
 | [AppleALC.kext](https://github.com/acidanthera/AppleALC) | Native macOS HD audio for not officially supported codecs |
 | [AppleMCEReporterDisabler.kext](https://files.amd-osx.com/AppleMCEReporterDisabler.kext.zip) | Disables AppleIntelMCEReporter which causes panics on AMD CPUs |
+| [ForgedInvariant.kext](https://github.com/ChefKissInc/ForgedInvariant)| A kext for syncing the TSC on AMD & Intel |
 | [GenericUSBXHCI.kext](https://github.com/RattletraPM/GUX-RyzenXHCIFix) | A fork of GenericUSBXHCI aimed at analyzing and fixing the USB3 |
 | [HoRNDIS.kext](https://github.com/TomHeaven/HoRNDIS) | A USB tethering driver for macOS (since WiFi isn't working) |
 | [Lilu.kext](https://github.com/acidanthera/Lilu) | Platform for arbitrary kext, library, and program patching throughout the system |
