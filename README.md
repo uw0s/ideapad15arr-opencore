@@ -2,7 +2,7 @@
  <h2 align="center">macOS Ventura on Lenovo Ideapad 330-15ARR - Ryzen 2500U</h2>
  <p align="center">Lenovo Ideapad 330-15ARR OpenCore EFI and config.</p>
 </p>
-<p align="center"><img src="https://img.shields.io/badge/Bios-7VCN49WW-blue?logo=lenovo&amp;logoColor=%23fff" alt="" />&nbsp;<img src="https://img.shields.io/badge/OpenCore-0.9.9-black" alt="" />&nbsp;<img src="https://img.shields.io/badge/macOS-Ventura%2013.6.7-green?logo=apple&amp;logoColor=%23fff" alt="" /></p>
+<p align="center"><img src="https://img.shields.io/badge/BIOS-7VCN49WW-blue?logo=lenovo&amp;logoColor=%23fff" alt="" />&nbsp;<img src="https://img.shields.io/badge/OpenCore-1.0.0-black" alt="" />&nbsp;<img src="https://img.shields.io/badge/macOS-Ventura%2013.6.7-green?logo=apple&amp;logoColor=%23fff" alt="" /></p>
 
 ## Table of Contents
 
@@ -28,7 +28,7 @@
 | WiFi & BT | Realtek RTL8821CE |
 | Ethernet | Realtek RTL8111 |
 | Audio | Realtek ALC236 |
-| OpenCore Version | 0.9.9 |
+| OpenCore Version | 1.0.0 |
 | SMBIOS | MacBookPro16,3 |
 
 ## Features
