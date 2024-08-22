@@ -2,7 +2,7 @@
  <h2 align="center">macOS Ventura on Lenovo Ideapad 330-15ARR - Ryzen 2500U</h2>
  <p align="center">Lenovo Ideapad 330-15ARR OpenCore EFI and config.</p>
 </p>
-<p align="center"><img src="https://img.shields.io/badge/BIOS-7VCN49WW-blue?logo=lenovo&amp;logoColor=%23fff" alt="" />&nbsp;<img src="https://img.shields.io/badge/OpenCore-1.0.0-black" alt="" />&nbsp;<img src="https://img.shields.io/badge/macOS-Ventura%2013.6.7-green?logo=apple&amp;logoColor=%23fff" alt="" /></p>
+<p align="center"><img src="https://img.shields.io/badge/BIOS-7VCN49WW-blue?logo=lenovo&amp;logoColor=%23fff" alt="" />&nbsp;<img src="https://img.shields.io/badge/OpenCore-1.0.1-black" alt="" />&nbsp;<img src="https://img.shields.io/badge/macOS-Ventura%2013.6.9-green?logo=apple&amp;logoColor=%23fff" alt="" /></p>
 
 ## Table of Contents
 
@@ -28,7 +28,7 @@
 | WiFi & BT | Realtek RTL8821CE |
 | Ethernet | Realtek RTL8111 |
 | Audio | Realtek ALC236 |
-| OpenCore Version | 1.0.0 |
+| OpenCore Version | 1.0.1 |
 | SMBIOS | MacBookPro16,3 |
 
 ## Features
@@ -37,7 +37,7 @@
 | CPU | ✅ | [AMD Vanilla Kernel Patches](https://github.com/AMD-OSX/AMD_Vanilla?tab=readme-ov-file#read-me-first) |
 | iGPU | ✅ | NootedRed.kext |
 | Brightness Control | ✅ |   |
-| HDMI A/V out | ✅ ⚠️ | HDMI Audio is not working ([related issue](https://github.com/ChefKissInc/NootedRed/issues/225)) |
+| HDMI A/V out | ✅ ℹ | HDMI Audio is not working ([related issue](https://github.com/ChefKissInc/NootedRed/issues/225)) |
 | USB | ✅ | All ports working with GUX-RyzenXHCIFix.kext + USBMap |
 | Keyboard | ✅ | VoodooPS2.kext |
 | Internal Speakers & Mic | ✅ | AppleALC.kext working with [layout-id](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html) 13 |
@@ -84,16 +84,16 @@ This boot argument is used due to the absence of [**Above 4G Decoding**](https:/
 
 ## SSDTs Used
 
-Generated with SSDTTime in Windows 10. More information [here](https://chefkissinc.github.io/guide/gathering-files/acpi).
+Generated with SSDTTime in Windows 10. More information [here](https://chefkissinc.github.io/guides/hackintosh/gathering-files/acpi/).
 
 | SSDT | SSDTTime Option |
 | --- | --- |
-| [SSDT-EC](https://chefkissinc.github.io/guide/gathering-files/acpi) | FakeEC Laptop |
-| [SSDT-HPET](https://chefkissinc.github.io/guide/gathering-files/acpi) | HPET |
-| [SSDT-PLUG](https://chefkissinc.github.io/guide/gathering-files/acpi) | PluginType |
-| [SSDT-PNLF](https://chefkissinc.github.io/guide/gathering-files/acpi) | PNLF |
-| [SSDT-USBX](https://chefkissinc.github.io/guide/gathering-files/acpi) | USBX |
-| [SSDT-XOSI](https://chefkissinc.github.io/guide/gathering-files/acpi) | XOSI |
+| SSDT-EC | FakeEC Laptop |
+| SSDT-HPET | HPET |
+| SSDT-PLUG | PluginType |
+| SSDT-PNLF | PNLF |
+| SSDT-USBX | USBX |
+| SSDT-XOSI | XOSI |
 
 ## Tools Used
 
