@@ -2,7 +2,7 @@
  <h2 align="center">macOS Ventura on Lenovo Ideapad 330-15ARR - Ryzen 2500U</h2>
  <p align="center">Lenovo Ideapad 330-15ARR OpenCore EFI and config.</p>
 </p>
-<p align="center"><img src="https://img.shields.io/badge/BIOS-7VCN49WW-blue?logo=lenovo&amp;logoColor=%23fff" alt="" />&nbsp;<img src="https://img.shields.io/badge/OpenCore-1.0.1-black" alt="" />&nbsp;<img src="https://img.shields.io/badge/macOS-Ventura%2013.6.9-green?logo=apple&amp;logoColor=%23fff" alt="" /></p>
+<p align="center"><img src="https://img.shields.io/badge/BIOS-7VCN49WW-blue?logo=lenovo&amp;logoColor=%23fff" alt="" />&nbsp;<img src="https://img.shields.io/badge/OpenCore-1.0.3-black" alt="" />&nbsp;<img src="https://img.shields.io/badge/macOS-Ventura%2013.7.4-green?logo=apple&amp;logoColor=%23fff" alt="" /></p>
 
 ## Table of Contents
 
@@ -28,7 +28,7 @@
 | WiFi & BT | Realtek RTL8821CE |
 | Ethernet | Realtek RTL8111 |
 | Audio | Realtek ALC236 |
-| OpenCore Version | 1.0.1 |
+| OpenCore Version | 1.0.3 |
 | SMBIOS | MacBookPro16,3 |
 
 ## Features
@@ -79,7 +79,7 @@ This boot argument is used due to the absence of [**Above 4G Decoding**](https:/
 | [USBToolBox.kext](https://github.com/corpnewt/USBMap) | A USB Mapping kext and tool,  UTBMap.kext must be generated |
 | [UTBMap.kext](https://github.com/USBToolBox/tool) | Generated with USBToolBox |
 | [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC) | Advanced Apple SMC emulator in the kernel |
-| [VoodooI2C.kext & VoodooI2CHID.kext](https://chefkissinc.github.io/Extras/Kexts/VoodooI2C.zip) | Fixes trackpad |
+| [VoodooI2C.kext & VoodooI2CHID.kext](https://github.com/VoodooI2C/VoodooI2C) | Fixes trackpad |
 | [VoodooPS2Controller.kext](https://github.com/acidanthera/VoodooPS2) | Fixes keyboard |
 
 ## SSDTs Used
